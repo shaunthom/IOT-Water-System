@@ -19,3 +19,7 @@ The code manages a water pump control panel for building sumps, offering both ma
 ##### Sump Protection.ino :
  
 The code controls a sump pump system, utilizing the ESP8266 WiFi module and ESP-NOW for communication. Various GPIO pins are configured for monitoring water levels, pump status, and error conditions. The code runs both setup and loop functions to initialize components and execute logic in real-time. Timed triggers manage periodic updates and error displays. The system integrates manual controls through a toggle switch and sends status updates via ESP-NOW. Additionally, safety features are included, such as disabling the pump when water is not available.
+
+##### Voltage Regulation.cpp :
+
+The code uses a NodeMCU board to manage a pump system with safety features and manual controls. It initializes pin configurations for the pump, manual switches, and voltage sensors. The main loop reads current values from an ACS sensor, averages them, and displays them on an LCD. Safety checks for overcurrent, under-voltage, and over-voltage are included to automatically turn the pump off under hazardous conditions. Manual ON and OFF switches allow for user control, with the LCD providing real-time status updates.
