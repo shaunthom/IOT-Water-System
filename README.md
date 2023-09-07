@@ -12,6 +12,9 @@ In our IoT water management system, water level sensors are installed in the tan
 
 ### Working:
 
+![image](https://github.com/shaunthom/IOT-Water-System/assets/134566032/2d770d01-f296-4ae9-91e2-87f0bed1a90a)
+
+
 ##### Control Panel.ino : 
 
 The code manages a water pump control panel for building sumps, offering both manual and automatic modes. It switches between two sumps based on preset conditions and uses current and voltage sensors for monitoring. Communication is done via Wi-Fi and ESP-NOW, with user interface through an LCD screen and remote access via Blynk. The system also includes notifications for specific conditions like an empty sump and safety features such as overload detection. All operations are executed in the Arduino's loop() function.
