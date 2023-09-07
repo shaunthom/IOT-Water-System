@@ -14,6 +14,8 @@ In our IoT water management system, water level sensors are installed in the tan
 
 ![image](https://github.com/shaunthom/IOT-Water-System/assets/134566032/2d770d01-f296-4ae9-91e2-87f0bed1a90a)
 
+You can see that each sensor connects to a Controller, which processes the signals. The Controller then sends these signals to a Transmitter, which communicates the status to the control panel. Essentially, it's a setup to monitor and control levels of the liquid based on maximum and minimum thresholds.
+
 
 ##### Control Panel.ino : 
 
