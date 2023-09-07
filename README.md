@@ -44,3 +44,8 @@ The safety features, including overcurrent and abnormal voltage detection, signi
 
 ###### Scalability:
 Given its successful implementation, the system serves as a blueprint for further advancements. It demonstrates the feasibility of expanding this model to a more extensive network of pumps, potentially integrating it with IoT technologies for remote monitoring and control.
+
+Just for illustrative purposes, an image of an unscaled prototype is shown below:
+
+![Prototype Image](https://github.com/shaunthom/IOT-Water-System/assets/134566032/b1fd061e-1242-4ff8-8627-10d6b27c0153)
+
